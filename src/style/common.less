@@ -1,0 +1,32 @@
+@cmain: #1989fa;
+@cpage: #416fff;
+@cfff: #fff;
+@c1e: #1e1e1e;
+@c66: #666;
+@cf5: #f5f5f5;
+@c99: #999;
+@cborder: #ebedf0;
+
+.rel-cls() {
+  display: block;
+  position: relative;
+}
+
+.abs-cls() {
+  display: block;
+  position: absolute;
+  width: 100%;
+}
+
+.flex() {
+  display: flex;
+}
+
+.clear() {
+  &:after {
+    content: "";
+    width: 0;
+    height: 0;
+    clear: both;
+  }
+}
